@@ -21,6 +21,6 @@ jobs:
       - run: |
           echo @gamedevsam:https://npm.pkg.github.com/ > .npmrc
           echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> .npmrc
-      - run: pnpm publish
+      - run: pnpm publish --no-git-checks
         env:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,5 +1,5 @@
 {
-  "name": "@gamedevsam/json-schema-instantiator",
+  "name": "json-schema-instantiator",
   "version": "1.0.1",
   "description": "A simple instantiator for json schemas.",
   "main": "dist/cjs/instantiator.js",

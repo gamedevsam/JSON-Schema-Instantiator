@@ -42,8 +42,8 @@
       "internalConsoleOptions": "openOnSessionStart"
     },
     {
-      "name": "prepublish",
-      "program": "infrastructure/package_scripts/prepublish.mjs",
+      "name": "prepare",
+      "program": "infrastructure/package_scripts/prepare.mjs",
       "env": { "NODE_OPTIONS": "--inspect" },
       "request": "launch",
       "outputCapture": "std",

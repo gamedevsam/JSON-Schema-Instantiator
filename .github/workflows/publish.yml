@@ -19,7 +19,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm run build
       - run: |
-          echo @gamedevsam:https://npm.pkg.github.com/ > .npmrc
+          echo registry=https://npm.pkg.github.com/gamedevsam > .npmrc
           echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> .npmrc
       - run: pnpm publish --no-git-checks
         env:

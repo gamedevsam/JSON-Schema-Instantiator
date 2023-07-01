@@ -42,16 +42,6 @@
       "internalConsoleOptions": "openOnSessionStart"
     },
     {
-      "name": "prepack",
-      "program": "infrastructure/package_scripts/prepack.mjs",
-      "env": { "NODE_OPTIONS": "--inspect" },
-      "request": "launch",
-      "outputCapture": "std",
-      "skipFiles": ["<node_internals>/**"],
-      "type": "node",
-      "internalConsoleOptions": "openOnSessionStart"
-    },
-    {
       "name": "test",
       "program": "infrastructure/package_scripts/test.mjs",
       "env": { "NODE_OPTIONS": "--inspect" },
